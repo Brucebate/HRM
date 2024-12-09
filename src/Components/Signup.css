@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: url(https://img.freepik.com/free-vector/job-recruit-doodle-concept-with-applicant-resume_107791-11271.jpg?t=st=1719822788~exp=1719826388~hmac=000ee09fab105abf4142340b79a26473ff2ce92c3db093b2c3f96095f7c8a2c8&w=1380);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+.page-container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper2 {
+    overflow: hidden;
+    max-width: 450px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 20px 58px rgba(0.5, 0.5, 0.5, 0.5);
+    width: 450px;
+    /* height: 691px; */
+    margin-top: 23px;
+}
+
+.title-text2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 2px 0px -25px 0;
+}
+
+.form-container2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.form-inner2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.field2 {
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    /* newly add */
+    position: relative;  
+}
+
+input, select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #1a75ff;
+}
+
+input::placeholder, select::placeholder {
+    color: #c0c0c0;
+    transition: all 0.3s ease;
+}
+
+input:focus::placeholder, select:focus::placeholder {
+    color: #1a75ff;
+}
+
+.field2 .password-toggle-icon2 {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+}
+
+.field.btn2 {
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.btn-layer2 {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background: -webkit-linear-gradient(right, #003366, #004080, #0059b3, #0073e6);
+    border-radius: 15px;
+    transition: all 0.4s ease;
+}
+
+.field2.btn2:hover .btn-layer2 {
+    left: 0;
+}
+
+input[type="submit"] {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 0;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-link2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link2 a {
+    color: #1a75ff;
+    text-decoration: none;
+}
+
+.login-link2 a:hover {
+    text-decoration: underline;
+}
